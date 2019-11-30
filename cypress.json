@@ -1,0 +1,13 @@
+{
+  "env": {
+    "baseurl_cy": "https://demo.applitools.com",
+    "ENV_APP": "nok"
+  },
+  "defaultCommandTimeout": 60000,
+  "fixturesFolder": false,
+  "integrationFolder": "cypress/integration",
+  "supportFile": "cypress/support/index.js",
+  "pluginsFile": "cypress/plugins/index.js",
+  "videosFolder": "cypress/videos",
+  "video":false
+}

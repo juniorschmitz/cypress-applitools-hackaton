@@ -1,0 +1,17 @@
+{
+  "name": "cypress-applitools-hackaton",
+  "version": "1.0.0",
+  "description": "Project created for testing the application of the Hackaton from API Tools.",
+  "main": "index.js",
+  "scripts": {
+    "test_ok": "sh ./node_modules/.bin/cypress run --spec cypress/integration/loginSpecs.js --env ENV_APP='ok'",
+    "test_nok": "sh ./node_modules/.bin/cypress run --spec cypress/integration/loginSpecs.js --env ENV_APP='nok'",
+    "test_visual_ok": "sh ./node_modules/.bin/cypress run --spec cypress/integration/visualLoginSpecs.js --env ENV_APP='ok'",
+    "test_visual_nok": "sh ./node_modules/.bin/cypress run --spec cypress/integration/visualLoginSpecs.js --env ENV_APP='nok'"
+  },
+  "author": "Jacques Schmitz Junior",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.6.1"
+  }
+}
